@@ -16,7 +16,7 @@ public class MouvementRobot : MonoBehaviour
     private void Update()
     {
         // reconstruire la lecture des commandes et la direction normalisée.
-        
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
@@ -41,7 +41,7 @@ public class MouvementRobot : MonoBehaviour
      *
      * 
      * 
-     * 
+     * done
      * 
      */
 }
